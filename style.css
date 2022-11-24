@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=popins:400,600,700');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #090A0A;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    padding: 40px;
+    font-size: 30px;
+    color: #FA255D;
+    font-family: 'popins', sans-serif;
+    font-weight: 400;
+    border: 5px solid #FA255D;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+}
+
+.btn:hover{
+    box-shadow: 100px 100px 100px 100px #FA255D inset,
+    0 5px 50px 0 #FA255D,
+    0 5px 50px 0 #FA255D inset,
+    0 5px 50px 0 #FA255D;
+    text-shadow: 0 0 5px #FA255D, 0 0 5px #FA255D;
+    color: white;
+}
